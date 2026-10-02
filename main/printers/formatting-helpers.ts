@@ -351,7 +351,7 @@ export function appendPoweredByFooter(
 ): void {
   lines.push("", "");
   for (const line of wrapText(RECEIPT_BRANDING, cols)) {
-    lines.push("{CENTER}{FONT_B}" + line + "{/FONT_B}{/CENTER}");
+    lines.push("{CENTER}{BOLD}" + line + "{/BOLD}{/CENTER}");
   }
 }
 
